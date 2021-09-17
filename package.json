@@ -4,8 +4,8 @@
   "description": "A simple CRUD using LitElement, Webpack, Babel and LocalStorage",
   "main": "app-consults.js",
   "scripts": {
-    "dev": "webpack-dev-server --open",
-    "build": "webpack -p"
+    "dev": "webpack serve",
+    "build": "webpack "
   },
   "keywords": [
     "LitElement",
@@ -18,22 +18,22 @@
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.10.1",
-    "lit-element": "^2.3.1",
-    "moment": "^2.26.0"
+    "lit-element": "^2.5.1",
+    "moment": "^2.29.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.1",
-    "@babel/core": "^7.10.2",
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
-    "@babel/preset-env": "^7.10.2",
-    "babel-loader": "^8.1.0",
-    "css-loader": "^3.5.3",
-    "file-loader": "^6.0.0",
-    "html-webpack-plugin": "^4.3.0",
-    "mini-css-extract-plugin": "^0.9.0",
-    "style-loader": "^1.2.1",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.0"
+    "@babel/preset-env": "^7.15.6",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.3.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
   }
 }

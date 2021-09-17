@@ -11,8 +11,13 @@ module.exports = {
       ]
     },
     devtool: 'source-map',
-    devServer:{
-      contentBase: './dist'
+    devServer: {
+      static: {
+        directory: path.join(__dirname, 'public'),
+      },
+      allowedHosts: 'all',
+      compress: true,
+      port: 9000,
     },
     plugins:[
       new HtmlWebpackPlugin({
